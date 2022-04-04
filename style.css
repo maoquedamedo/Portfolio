@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(236.85deg, #8b0000 75.26%, #ff0000 25.03%);
+  background-size: 2300px 1000px;
+}
+.container {
+  background: #fffafa;
+  margin: 70px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #000000;
+  font-color: #1c1c1c;
+  padding: 25px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.foto {
+  border-radius: 460px;
+  max-height: 160px;
+  margin-right: 10px;
+  border: 3px solid black;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 40px;
+  background: #dda0dd;
+  border: 2px solid black;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #ffc0cb;
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 15px;
+}
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 45px;
+}
+.item a {
+  color: black;
+  text-decoration: none;
+}
+
+.tema2 {
+  background: linear-gradient(236.85deg, #663399 75.26%, #9932cc 25.03%);
+  background-size: 2300px 1000px;
+}
+
+.tema2 .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+.tema2 .projetos {
+  color: #1c1c1c;
+}
+.tema2 .tema button {
+  background: #cd5c5c;
+  border: 2px solid #f7f7f7;
+}
